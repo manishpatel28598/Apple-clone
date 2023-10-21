@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.80);
+    padding-left: 15.25rem;
+    padding-right: 15.25rem;
+    
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-contents{
+    display: flex;
+    gap: 20px;
+}
+.down{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0 10.25rem 0 10.25rem;
+}
+.new{
+    
+color: #BF4800;
+}
+.sec1{
+    display: flex;
+   
+    padding: 0 266px 0px 266px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+
+}
+.sec1up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sec1-new{
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 147.059% */
+    letter-spacing: -0.374px;
+}
+.sec1-h6{
+
+}
+.sec1-h1{
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.rate{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;
+}
+.sec1-btn{
+    display: flex;
+    width: 470.781px;
+    padding: 0px 132.438px;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.buy{
+   
+    all: unset;
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 117.648% */
+letter-spacing: -0.374px;
+    outline: none;
+    display: flex;
+    width: 61.203px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    cursor: pointer;
+background: #0071E3;
+}
+.learn{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.sec1down{
+    width: 788px;
+
+flex-shrink: 0;
+}
+.s{
+    background: #000;
+}
+.s2{
+    color: white;
+}
+.s3{
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ps3{
+    color: white;
+}
+.sec3 {
+    display: flex;
+    flex-direction: row;
+}
+.sec4{
+    width: 100%;
+    position: relative;
+height: 814px;
+flex-shrink: 0;
+background-repeat:  no-repeat;
+background-size: contain;
+background: url("https://s3-alpha-sig.figma.com/img/de10/401c/a4014506c428a1f45002d44ea199786e?Expires=1698624000&Signature=d6~GaD0yz2UAE0r30oZvUU8Wn0EB~Ud5vh~yCC1RDymk7pYZtmu9SaGuQ1ztRGJsBfAkCkDxImq3TmQagPzpHPVFnfwnTBQXFBtLe3Cu7aAiw7HrM8kceQFTHQ1oCPzJSjxx8u12RHk1zClnbee0iPiPIQ3781JDr~l5aTrKdTL876u4R8TKtPnNJqGtVXuXgnAfHKbW0E6xeLylUeicisI9SZ8we3607ETGTzqeaYPPlAjhPcbkl1C20xCuKZIDiClP8fDSomnIms1mdcXWS-ME3A203TmMJxD~7z4vn~uJ41Z2dAjGZGdeIpKTfgS9WWGGbBdMAWWw~ifLoAw1bQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 50% / contain no-repeat;
+}
+.sec4d{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec4h{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 0.216px;
+}
+.sec4p{
+    font-size: 18px;
+}
+.sec4-btn{
+    display: flex;
+width: 142.234px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+border-radius: 980px;
+background: #FFF;
+}
+.sec5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 116px 266px 119px 266px;
+  
+}
+.sec5p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.mobile{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.mobile-sec{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 20px;
+    
+
+}
+.sbuy{
+    all: unset;
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 117.648% */
+letter-spacing: -0.374px;
+    outline: none;
+    display: flex;
+    width: 20.203px;
+    height: 16px;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    cursor: pointer;
+background: #0071E3;
+}
+.sec5-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.slearn{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.wow{
+    display: flex;
+    width: 100%;
+    background: #01012A;
+    padding: 17px 50.078px 15px 100.031px;
+    justify-content: center;
+    align-items: center;
+    gap: 100.063px;
+    flex-shrink: 0;
+    
+}
+.wow-up{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.give{
+    color: white;
+    font-size: 3rem;
+}
+.give-link{
+    color: #2997FF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+letter-spacing: 0.231px;
+}
+.way-iPhone{
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 20px ;
+}
+.cbuy{
+    all: unset;
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 117.648% */
+letter-spacing: -0.374px;
+    outline: none;
+    display: flex;
+    width: 100.203px;
+    height: 16px;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    cursor: pointer;
+background: #0071E3;
+}
+.sec6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.div2{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.p6{
+    color: #1D1D1F;
+
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: 0.216px;
+}
+.h6{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;
+}
+.sec7{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.cardd{
+    display: flex;
+    flex-direction: column;
+width: 375px;
+height: 751px;
+padding: 0px 102.5px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 85px;
+flex-shrink: 0;
+}
+.card7-up{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
